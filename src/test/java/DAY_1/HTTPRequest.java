@@ -12,12 +12,14 @@ public class HTTPRequest {
 	String apiKey = "pub_07208d8e904ad1680b8dbbb124acb8f8380f227734d5220928bc06b974bc683e";
 	int id;
 	 @Test(priority=1)
-	public void getUers() {
+	public void getUsers() {
 		 
 		given()
 		.header("x-api-key", apiKey)
+		
 	    .when()
 	  .get("https://reqres.in/api/users?page=2")
+	  
 	   .then()
 	   .statusCode(200)
 	   .log().all();
