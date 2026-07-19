@@ -1,0 +1,68 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.backup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.cache
+.loadpath
+.recommenders
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Build output
+/out/
+/build/
+*.class
+*.jar
+*.war
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Test reports
+test-output/
+surefire-reports/

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>RestAssured_Project</groupId>
+  <artifactId>RestAssured_Project</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <!-- REST Assured Dependencies -->
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JSON Path for JSON parsing -->
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-path</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- XML Path for XML parsing -->
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>xml-path</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JSON Schema Validator -->
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>json-schema-validator</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- JUnit 5 for Testing -->
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.10.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.10.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Hamcrest Matchers for Assertions -->
+    <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest</artifactId>
+      <version>2.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Gson for JSON processing -->
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.10.1</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- Jackson for JSON/XML processing -->
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.16.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- SLF4J for Logging -->
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.9</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- SLF4J Log4j 2 Binding -->
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j2-impl</artifactId>
+      <version>2.21.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- Log4j Core -->
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.21.0</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- TestNG (Alternative to JUnit) - Optional -->
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.8.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Surefire TestNG Provider -->
+    <!-- https://mvnrepository.com/artifact/org.apache.maven.surefire/surefire-testng -->
+    <dependency>
+      <groupId>org.apache.maven.surefire</groupId>
+      <artifactId>surefire-testng</artifactId>
+      <version>2.22.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- Allure TestNG Adapter for Reporting - Optional -->
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>2.23.0</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+</project>
