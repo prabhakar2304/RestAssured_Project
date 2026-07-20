@@ -1,15 +1,20 @@
 package DAY_2;
 
 import static io.restassured.RestAssured.*;
-
+import org.json.JSONObject;
 import org.apache.http.impl.client.TargetAuthenticationStrategy;
 import org.testng.annotations.Test;
+
+import com.google.gson.JsonObject;
+
 import static org.hamcrest.Matchers.*;
 import java.util.HashMap;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 
-public class Post_Request_Types {
+public class Post_Request_Types_HashMap {
     String id;
+    
+    //1-->Post request using hashmap
 	@Test(priority=1)
 	void testpostusingHashMap()
 	{
@@ -36,6 +41,7 @@ public class Post_Request_Types {
 
 		System.out.println(id);		
 }
+	
 	
 	 @Test(priority=2)
 	void testDeleteRequest()
