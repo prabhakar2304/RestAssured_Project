@@ -56,7 +56,9 @@ public class ParsingJSONResponseData
 
 	        String studentName = jarr.getJSONObject(i).getString("name");
 	        System.out.println("Student Name is: " + studentName);
-	         
+	        
+	        int studentenglish = jarr.getJSONObject(i).getInt("english");
+	         System.out.println("Student english mark is: " + studentenglish);
 	 }
 	 }
 }
